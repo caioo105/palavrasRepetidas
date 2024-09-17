@@ -12,15 +12,15 @@ const program = new Command();
 // Define a versão do programa e as opções de linha de comando
 program
   .version('0.0.1')
-  .option('-t,--texto <string>', 'Caminho do arquivo de texto a ser processado')
-  .option('-d, --destino <string>', 'Caminho da pasta onde salvar o arquivo de resultados')
+  .option('-t,--texto <string>', 'Path of the text file to be processed')
+  .option('-d, --destino <string>', 'Path to the folder where you want to save the results file')
   .action((options) => {
     // Desestrutura as opções passadas pela linha de comando
     const { texto, destino } = options;
 
     // Verifica se os caminhos foram fornecidos
     if (!texto || !destino) {
-      console.error(chalk.red('erro: Favor inserir o caminho de origem e destino'));
+      console.error(chalk.red('error: Please enter the source and destination path'));
       program.help();
       return;
     }
@@ -32,9 +32,9 @@ program
     // Tenta processar o arquivo
     try {
       processaArquivo(caminhoTexto, caminhoDestino);
-      console.log(chalk.green('texto processado com sucesso'));
+      console.log(chalk.green('text processed successfully'));
     } catch (erro) {
-      console.log('ocorreu um erro no processamento', erro);
+      console.log('a processing error occurred', erro);
     }
   });
 
@@ -63,7 +63,7 @@ function processaArquivo(texto, destino) {
 // Função para criar e salvar o arquivo com os resultados
 async function criaESalvaArquivo(listaPalavras, endereco) {
   // Constrói o nome do arquivo de saída
-  const arquivoNovo = `${endereco}/resultado.txt`;
+  const arquivoNovo = `${endereco}/result.txt`;
 
   // Formata os resultados para o formato de saída (assumindo que montaSaidaArquivo faz isso)
   const textoPalavras = montaSaidaArquivo(listaPalavras);
