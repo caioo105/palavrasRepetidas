@@ -19,7 +19,7 @@ function filtraOcorrencias(paragrafo) {
   
       // Adiciona uma linha à saída final apenas se houver palavras duplicadas
       if (duplicadas) {
-        textoFinal += `palavras duplicadas no paragrafo ${indice + 1}: ${duplicadas}\n`;
+        textoFinal += `Words duplicate in paragraph: ${indice + 1}: ${duplicadas}\n`;
       }
     });
   
