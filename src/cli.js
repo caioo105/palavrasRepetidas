@@ -71,7 +71,7 @@ async function criaESalvaArquivo(listaPalavras, endereco) {
   try {
     // Escreve os resultados no arquivo de forma assíncrona
     await fs.promises.writeFile(arquivoNovo, textoPalavras);
-    console.log('Arquivo criado');
+    console.log('File created');
   } catch (erro) {
     throw erro;
   }
