@@ -1,7 +1,5 @@
 # VerificacaoPalavrasRepetidas
 [Pt-Br]
-Criei um rascunho de um README.md para o seu projeto. Adapte-o de acordo com as especificidades do seu código e as informações que você deseja compartilhar:
-README.md
 Analisador de Palavras Repetidas
 Descrição
 Este script em JavaScript, utilizando Node.js, é projetado para identificar palavras repetidas em um arquivo de texto. Ele lê o arquivo especificado, processa o texto e gera um novo arquivo com as palavras que se repetem em cada parágrafo.
