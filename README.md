@@ -1,23 +1,70 @@
-# VerificacaoPalavrasRepetidas
-[Pt-Br]
-Analisador de Palavras Repetidas
-Descrição
-Este script em JavaScript, utilizando Node.js, é projetado para identificar palavras repetidas em um arquivo de texto. Ele lê o arquivo especificado, processa o texto e gera um novo arquivo com as palavras que se repetem em cada parágrafo.
+# Getting Started with Create React App
 
-Funcionalidades
-Leitura de arquivos: Permite ao usuário especificar o caminho para o arquivo de texto a ser analisado.
-Contagem de palavras: Identifica as palavras que se repetem em cada parágrafo do texto.
-Geração de relatório: Cria um novo arquivo de texto com um relatório detalhado das palavras repetidas em cada parágrafo.
-Personalização: Permite ao usuário definir o caminho de saída para o arquivo de relatório.
-Pré-requisitos
-Node.js e npm (ou yarn): Necessários para executar o script.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-[En]
-This JavaScript script, built using Node.js, is designed to identify duplicate words within a text file. It reads the specified file, processes the text, and generates a new file outlining the recurring words in each paragraph.
-Features
-File Reading: Allows users to specify the exact path to the text file for analysis.
-Word Counting: Identifies words that appear multiple times within each paragraph of the text.
-Report Generation: Creates a new text file containing a detailed report of duplicate words in each paragraph.
-Customization: Enables users to define the output path for the report file.
-Prerequisites
-Node.js and npm (or yarn): Required to run the script.
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
